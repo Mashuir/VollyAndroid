@@ -25,7 +25,7 @@ public class ApiClient {
 
             retrofit = new Retrofit.Builder()
                     .client(okHttpClient)
-                    .baseUrl("https://api.escuelajs.co/api/v1/files/")
+                    .baseUrl("http://192.168.20.218/CloudNetAPIExt/")
                     .addConverterFactory(GsonConverterFactory.create(gson))
                     .build();
 
